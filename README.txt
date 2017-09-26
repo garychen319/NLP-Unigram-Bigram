@@ -1,5 +1,4 @@
-Artificial Intelligence Assignment 5 README
-Gary Chen gc2676
+AI - Natural Language Processing
 
 To run: python3 driver_3.py
 
@@ -9,6 +8,11 @@ Input files required to be under the parent directory to run:
 	test_path = "../imdb_te.csv"
 	stopwords = "../stopwords.en.txt"
 
+-Data trained using Stochastic Gradient Descent Classifier, good for text data since text corpus are often huge.
+
+-English stopwords in stopwords.en.txt are removed.
+
+-3 representations - Unigram, Bigram, Tfidf (Term Frequency Inverse Document Frequency)
 
 Achieved accuracy score below for reference:
 (A higher accuracy was achieved using both unigrams and bigrams (passing (1,2) into countVectorizer)
